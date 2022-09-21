@@ -42,7 +42,7 @@ export const Todo = () => {
         return console.log("iniciado")
     }
 
-        //Mensaje para mostrar numero de tareas pendiente      
+     
     const mensaje2 = () =>{
         if(tasklist.length == 0){
             return "No hay tareas pendientes"
@@ -51,7 +51,7 @@ export const Todo = () => {
             return `${tasklist.length} tareas pendientes`
         }
     }
-        //Mensaje para mostrar en Boton Eliminar 
+
     const mensaje = () =>{
         if(tasklist.length == 0){
             return "No hay tareas para mostrar"
